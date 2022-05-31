@@ -9,7 +9,7 @@ import React, { Suspense, useRef, useState } from 'react'
 import { useFrame } from '@react-three/fiber'
 //animacion de elementos de react spring three??
 import { animated, useSpring } from '@react-spring/three'
-import { useTitle } from '../../context/title'
+
 const Sphere = ({ setBg, setGrayg }) => {
   const sphere = useRef()
   const light = useRef()

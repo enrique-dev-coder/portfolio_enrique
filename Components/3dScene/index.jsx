@@ -20,8 +20,8 @@ const Scene = () => {
     []
   )
   return (
-    <animated.div style={{ background }} className="h-screen w-full">
-      <div className="absolute top-[20vh] left-[20vw]">
+    <animated.div style={{ background }} className="full_container_height">
+      <div className="name_container">
         <Name />
       </div>
       <Canvas className="canvas" dpr={[1, 2]}>

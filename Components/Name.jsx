@@ -6,15 +6,15 @@ const Name = () => {
   //destructu porque queremos el gray
   const { grayBg } = useTitle()
   return (
-    <div className="w-full h-full">
+    <div className="full_container">
       <h1
-        className="text-[2rem] font-medium transition-all  duration-500 ease-in-out"
+        className="main_title"
         style={{ color: `${grayBg ? '#b38f00' : '#F8C069'}` }}
       >
         Enrique Alvarado
       </h1>
       <h2
-        className="text-[1.5rem] font-medium transition-all  duration-500 ease-in-out"
+        className="secondary_title"
         style={{ color: `${grayBg ? '#000000' : '#ffffff'}` }}
       >
         Front-end developer
