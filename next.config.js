@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  distDir: 'build',
+  target: 'serverless',
 }
 
 const withTM = require('next-transpile-modules')(['three'])
